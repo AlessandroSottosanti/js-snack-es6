@@ -5,12 +5,22 @@ function getSubArray(array, a, b) {
     }
 
     const result = [];
+
+    for (let i = a; i <= b; i++) {
+        currentItem = array[i];
+        result.push(currentItem);
+    }
+
+    // OPPURE
+    /*
+    const result = [];
     let resultIndex = 0;
 
     for (let i = a; i <= b; i++) {
         result[resultIndex] = array[i];
         resultIndex++;
     }
+        */
 
     return result;
 }
