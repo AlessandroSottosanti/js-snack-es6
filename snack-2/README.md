@@ -1,4 +1,4 @@
-### Esercizio Simon says
+### Esercizio Snack 2
 
 ## Dati
 - array di squadre da calcio;
