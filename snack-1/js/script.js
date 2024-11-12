@@ -13,5 +13,5 @@ for(i = 0; i < bikes.length; i++){
     if (peso < lightestBike.weight) {
         lightestBike = curBike; 
     }
-    console.log("La bici più leggera è la", lightestBike.name);
 }
+console.log("La bici più leggera è la", lightestBike.name);
