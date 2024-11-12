@@ -1,14 +1,15 @@
 ### Esercizio Simon says
 
 ## Dati
-- 5 numeri casuali da 1 a 99;
-- 5 input di numeri.
+- array di squadre da calcio;
+- oggetto squadra ha le seguenti prop: nome, punti, falli subiti;
+- l'unica proprietà settata sarà name, le altre saranno inizializzate a 0;
+- popoleremo le proprietà con numeri random.
 
 ## Esecuzione Logica
-- Creeremo un array con 5 numeri random e li mostreremo in pagina;
-- Con Set interval mostreremo un countdown | alla fine di quest'ultimo i numeri non saranno più visualizzabili;
-- Al loro posto verrano inseriti degli input di tipo numerico al quale aggiungeremo dei controlli per la validità del numero;
-- Verificheremo se i numeri inseriti corrispondono a quelli del primo array.
+- Inizializzeremo l'array con le squadre inserendo solo il valore nome e le altre saranno a 0;
+- genereremo dei numeri random per le altre proprietà;
+- Creeremo un array copia con solo nome e falli subiti.
 
 ## Output
-- Mostreremo a schermo quanti e quali numeri saranno stati indovinati. 
+- stampare in console l'array inizaiale e quello senza la prop punti;
