@@ -7,7 +7,7 @@
 
 ## Esecuzione Logica
 - Inizializzaimo le tre variabili;
-- creo una funzione ""subArray" che ha come parametri le tre variabili,
+- creo una funzione "subArray" che ha come parametri le tre variabili,
 | quindi vi inserisco un controllo prima di eseguire la logica per verificare che a sia minore di b, e che b non superi la lunghezza dell'array. 
 | Sempre nella funzione creo un array vuoto a cui poi assegnerò il risultato e metterò nel return.
 | creo una variabile per l'indice del nuovo array e lo inizializzo a 0
