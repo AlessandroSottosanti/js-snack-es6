@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="favicon.ico" type="image/ico" />
+  <!-- Bootstrap -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css'
+    integrity='sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=='
+    crossorigin='anonymous' />
+
+  <!-- JavaScript -->
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+
+  <div class="d-flex justify-content-center align-items-center flex-column m-5" id="start-block">
+    <h3>Pronto?</h3>
+    <button class="btn btn-success mt-3" id="start">Start game!</button>
+  </div>
+
+  <div class="d-flex justify-content-center align-items-start flex-column m-5">
+    <h3  id="counter"></h3>
+  </div>
+  
+  <div class="d-flex justify-content-center align-items-center flex-column m-5">
+    <ul class="d-flex random-list gap-5 justify-content-center align-items-center visually-hidden text-primary" id="cmp-nums">
+      
+    </ul>
+  </div>
+  
+<div class="d-flex justify-content-center align-items-center flex-row m-5 ">
+
+  <form action="" class="form-check visually-hidden" id="form-list">
+    <label class="form-label" for="num1">Numero 1</label>
+    <input class="form-control" type="number" id="num1" name="num1">
+    <div class="invalid-feedback" id="invalid-1"></div>
+
+    <label class="form-label" for="num2">Numero 2</label>
+    <input class="form-control" type="number" id="num2" name="num2">
+    <div class="invalid-feedback"  id="invalid-2"></div>
+
+
+    <label class="form-label" for="num3">Numero 3</label>
+    <input class="form-control" type="number" id="num3" name="num3">
+    <div class="invalid-feedback"  id="invalid-3"></div>
+
+
+    <label class="form-label" for="num4">Numero 4</label>
+    <input class="form-control" type="number" id="num4" name="num4">
+    <div class="invalid-feedback"  id="invalid-4"></div>
+
+
+    <label class="form-label" for="num5">Numero 5</label>
+    <input class="form-control" type="number" id="num5" name="num5">
+    <div class="invalid-feedback"  id="invalid-5"></div>
+
+    
+  <button class="btn btn-primary mt-3" type="submit" id="invio">Conferma</button>
+  <button class="btn btn-outline-primary mt-3" type="reset">Cancella</button>
+  </form>
+
+</div>
+
+<div class="d-flex justify-content-center align-items-center flex-row m-5 " id="tot">
+</div>
+
+</body>
+
+
+</html>
